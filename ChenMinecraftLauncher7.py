@@ -158,7 +158,7 @@ class State:
 class Auth:
     """Minecraft Microsoft OAuth2 认证（设备代码流）"""
 
-    CLIENT_ID = "00000000402B5328"#警告：正版登录时不要使用这个 Client ID，这个是测试用的，如果你将其用作游戏，将会违反微软的政策。请将其换成你自己的 Client ID。在 https://portal.azure.com上可以免费申请 Client ID，不会可以问AI。CML、CML 的作者对用户因使用测试 ID 进行游戏而导致的账号封禁或其他任何法律后果不承担任何责任。
+    CLIENT_ID = "00000000402B5328"#警告：正版登录时不要使用这个 Client ID，这个是仅限测试用的，如果你将其用作游戏，将会违反微软的政策。∵虽然它免费，但是还是需要绑银行卡，而我的银行卡不被微软接受，∴我无法申请 Client ID，请你们自行申请。必须将其换成你自己的 Client ID。在 https://portal.azure.com上可以免费申请 Client ID，不会可以问AI。CML、CML 的作者对用户因使用测试 Client ID 进行游戏而导致的账号封禁或其他任何后果不承担任何责任。
     TENANT = "consumers"
     SCOPE = "XboxLive.signin offline_access"
 
