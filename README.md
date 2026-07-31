@@ -70,7 +70,7 @@ CML7 是一个功能完备的 Minecraft 启动器，采用 Python 编写，支�
 3. 运行：
    ```bash
    python ChenMinecraftLauncher7.py
-```
+   ```
 
 4. 首次启动会自动创建必要的目录结构（.minecraft、runtime、instances 等）。
 5. 使用内置命令进行登录、下载和启动。
