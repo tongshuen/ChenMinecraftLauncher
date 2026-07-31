@@ -4552,7 +4552,7 @@ def print_banner(state):
                 pw_info = f" {C.GRAY}[无密码]{C.RESET}"
         except Exception:
             pass
-    print(f"""{C.BRIGHT_BLUE}{C.BOLD}Chen Minecraft Launcher 7 (CML7) ©2026 童顺 cn19491001cn@yeah.net admin@amateurradio.org.cn{C.RESET}
+    print(f"""{C.BRIGHT_BLUE}{C.BOLD}Chen Minecraft Launcher 7 (CML7) ©2026 童顺\ncn19491001cn@yeah.net admin@amateurradio.org.cn\n感谢 BMCLAPI 为本启动器提供 CurseForge 的镜像源{C.RESET}
   Java: {java_status}  CWD: {C.CYAN}{state.get_cwd()}{C.RESET}{pw_info}
 """)
 
