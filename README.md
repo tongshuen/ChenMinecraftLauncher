@@ -1,6 +1,52 @@
 # ChenMinecraftLauncher
 一个新兴的Minecraft启动器
+# Chen Minecraft Launcher 8 (CML8)
 
+©2026 童顺  
+cn19491001cn@yeah.net | admin@amateurradio.org.cn
+
+CML8 是一个功能完备的 Minecraft 启动器，采用 Python 编写，支持正版 Microsoft 登录、离线模式、多版本管理、模组加载器自动安装、整合包导入导出以及丰富的命令行交互。
+
+---
+
+## ✨ 主要特性
+
+- **双模式认证**  
+  - Microsoft OAuth2 设备代码流（正版登录）  
+  - 离线模式（生成离线 UUID）  
+  - 本地密码保护（PBKDF2 加密存储，可单独为每个账号设置密码）
+
+- **游戏版本管理**  
+  - 从 Mojang 官方清单获取所有正式版、快照、古早版  
+  - 自动下载客户端、资源索引和库文件  
+  - 支持版本继承（`inheritsFrom`）和完整的规则引擎（`rules` / `features` / `os` / `arch`）
+
+- **模组加载器自动安装**  
+  - 支持 **Fabric**、**Forge**、**Quilt**、**NeoForge**、**OptiFine**、**LiteLoader**  
+  - 实时从官方源查询可用版本列表（含缓存）  
+  - 自动下载安装器并执行，无需手动操作
+
+- **整合包支持**  
+  - 导入 **CurseForge**（`.zip`，自动下载所有模组文件，支持 BMCLAPI 镜像）  
+  - 导入 **Modrinth**（`.mrpack`）  
+  - 导入 **MultiMC**（`.zip`）  
+  - 导出为 Modrinth 格式（`.mrpack`）  
+  - 支持重新下载失败的模组文件
+
+- **模组元数据解析**  
+  - 从 `.jar` 中提取 Fabric / Quilt / Forge / LiteLoader 的元数据（名称、ID、版本、依赖、冲突）  
+  - 依赖冲突检测和循环依赖报告
+
+- **环境自检与自动配置**  
+  - 自动检测并安装 **Java**（从 Adoptium Temurin 下载）  
+  - 安装 **Git**（Windows 下提供 MinGit）  
+  - 安装 **C/C++ 编译器**（Linux 下通过包管理器）
+
+---
+#相对于上一个版本，更新了什么
+##安全更新
+限制了部分敏感文件的权限。由于权限模型差异，此更新对 Unix 系系统有效，对 DOS 系系统基本无效。
+---
 # Chen Minecraft Launcher 7 (CML7)
 
 ©2026 童顺  
