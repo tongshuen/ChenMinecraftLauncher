@@ -1314,7 +1314,7 @@ class CurseForgeDownloader:
     def get_download_url_via_curseforge_api(file_id, api_key=None):
         """
         通过官方 CurseForge API 获取下载 URL。
-        需要 API Key（免费注册 https://console.curseforge.com/）。
+        需要 API Key（免费注册 https://console.curseforge.com/），这个和上面的 Client ID 一样我就不帮你们申请了。
         """
         if not api_key:
             return None
