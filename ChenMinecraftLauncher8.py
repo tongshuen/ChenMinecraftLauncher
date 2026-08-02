@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """Chen Minecraft Launcher 8 (CML8)
 ©2026 童顺 cn19491001cn@yeah.net admin@amateurradio.org.cn"""
@@ -2548,7 +2549,7 @@ class LoaderVersionResolver:
         if not result["versions"]:
             try:
                 url = f"https://optifine.net/downloads"
-                # 官方没有 JSON API，这里只做占位
+                # 官方没有 JSON API，这里只做占位，后面如果上线了记得发邮件通知我，我好更新 API 地址
             except Exception:
                 pass
 
@@ -4601,5 +4602,5 @@ def main():
 
 
 if __name__ == "__main__":
-    print("警告：代码第 161 行有重要信息，使用本工具即表示你已阅读并理解此警告。将其阅读并理解后可将代码第4604行注释或删除，以消除此警告")
+    print("警告：代码第 161 行有重要信息，使用本工具即表示你已阅读并理解此警告。将其阅读并理解后可将代码第4605行注释或删除，以消除此警告")
     main()
