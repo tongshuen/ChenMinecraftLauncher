@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Chen Minecraft Launcher 9 (CML9)
+"""Chen Minecraft Launcher 8.5 (CML8.5)
 ©2026 童顺 cn19491001cn@yeah.net admin@amateurradio.org.cn"""
 
 import os, sys, json, subprocess, threading, time, shutil
@@ -5002,7 +5002,7 @@ def print_banner(state):
                 pw_info = f" {C.GRAY}[无密码]{C.RESET}"
         except Exception:
             pass
-    print(f"""{C.BRIGHT_BLUE}{C.BOLD}Chen Minecraft Launcher 9 (CML9) ©2026 童顺
+    print(f"""{C.BRIGHT_BLUE}{C.BOLD}Chen Minecraft Launcher 8.5 (CML8.5) ©2026 童顺
 cn19491001cn@yeah.net admin@amateurradio.org.cn
 感谢 BMCLAPI 为本启动器提供 CurseForge 的镜像源{C.RESET}
   Java: {java_status}  CWD: {C.CYAN}{state.get_cwd()}{C.RESET}{pw_info}
